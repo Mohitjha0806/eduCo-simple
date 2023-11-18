@@ -56,6 +56,7 @@ nav {
   justify-content: end;
   flex-direction: row;
   margin-right: 7rem;
+  margin-top: 2vh;
 }
 .nav-right ul {
   display: flex;
@@ -131,56 +132,11 @@ ul li {
   background-color: #d80032;
   color: #ffffffd3;
 }
-i {
-}
 
-/*-------------responsive container 1------------*/
+/*=============== Box2 ===============*/
 
-@media only screen and (max-width: 600px) {
-  .box1 {
-    width: 100vw;
-    height: 100vh;
-  }
-  nav {
-    width: 100vw;
-  }
-  ul li {
-    display: none;
-  }
-  .content {
-    flex-direction: column;
-    display: grid;
-  }
-  .content-left {
-    width: 100vw;
-
-  }
-  .content-right {
-    position: relative;
-    height: 100vh;
-    overflow: hidden;
-    width: 100vw;
-    display: flex;
-    align-items: top;
-    justify-content: center;
-  }
-  .context {
-    width: 100vw;
-    display: grid;
-  }
-  .content-right img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    width: 100vw;
-    background-image: url(https://images.unsplash.com/photo-1531685250784-7569952593d2?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-  }
-
-  i {
-    margin-left: 20vw;
-  }
-  h1 {
-    font-size: auto;
-  }
+.box2{
+  width: 100vw;
+  height: 100%;
+  background-color: violet;
 }
