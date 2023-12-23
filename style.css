@@ -153,14 +153,13 @@ ul li {
   height: 15%;
   background-color: #847a7f;
   gap: 0.5vw;
-  filter: drop-shadow(10px 10px 15px #5F6F52);
- 
+  filter: drop-shadow(10px 10px 15px #5f6f52);
 }
 
 .form-control {
   width: 20vw;
 }
-a{
+a {
   text-decoration: none;
   color: black;
 }
@@ -179,6 +178,47 @@ a{
   align-items: center;
   justify-content: center;
   width: 100vw;
+  flex-direction: column;
+  gap: 3vh;
   height: 40%;
   /* background-color: teal; */
 }
+
+.under_box {
+  width: 70vw;
+  height: 45vh;
+  display: flex;
+  flex-direction: row;
+  background-color: #f3eeea;
+  gap: 1.5vw;
+}
+
+.png_1 {
+  width: 33.33vw;
+  height: 100%;
+  background-color: #d80032;
+  background-image: url(https://img.freepik.com/free-vector/purple-phone-tablet-with-orange-stylus-3d-illustration-drawing-tablet-digital-pen-graphic-designers-3d-style-white-background-technology-entertainment-graphic-design-concept_778687-1654.jpg?w=740&t=st=1703318578~exp=1703319178~hmac=5c1d3622406c9ffe2c7e7cbcd71a1896d91e03de7060256a64848f1afce8db31);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.png_2 {
+  width: 33.33vw;
+  height: 100%;
+  background-color: #ad183b;
+  background-image: url(https://img.freepik.com/free-photo/3d-render-handshake-icon-isolated-business-concept_107791-15028.jpg?w=900&t=st=1703322762~exp=1703323362~hmac=cf7a9464911260e6cc922ac0a0a1fda1a7a7c5fdf8207c5d05044000581efa2c);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.png_3 {
+  width: 33.33vw;
+  height: 100%;
+  background-color: #3f1b24;
+  background-image: url(https://img.freepik.com/free-vector/illustration-calendar-icon_53876-5588.jpg?w=740&t=st=1703323017~exp=1703323617~hmac=a8b1ba6c2958303ade88ea9ec7bd83d742e97708a1f632d62c946d86e86b68d5);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
