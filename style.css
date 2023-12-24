@@ -220,5 +220,79 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.box3{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  width: 100vw;
+  height: 100%;
+  background-color: #f3eeea;
+}
+
+.png_4 {
+  width: 33.33vw;
+  height: 100%;
+  background-color: #d80032;
+  background-image: url(https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg?w=740&t=st=1703429455~exp=1703430055~hmac=d19dc6e08ad287206c3824b3ea1d8eba8bd4a1ede6d8e740d18c76a177a130d8);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.png_5 {
+  width: 33.33vw;
+  height: 100%;
+  background-color: #ad183b;
+  background-image: url(https://img.freepik.com/free-psd/realistic-school-supplies_23-2150588337.jpg?w=740&t=st=1703429531~exp=1703430131~hmac=e4c5bc2fee81e1d771a90714a6a61c8bfc3a50eed279268590706ad2ed4e27ac);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.png_6 {
+  width: 33.33vw;
+  height: 100%;
+  background-color: #3f1b24;
+  background-image: url(https://img.freepik.com/free-vector/character-illustration-people-holding-user-account-icons_53876-66068.jpg?w=900&t=st=1703429615~exp=1703430215~hmac=f17ba2f1cb1afd79018bf3cd84c8845cb53cf62b1de4bd34613ec30252b4bbf8);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box31{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  flex-direction: column;
+  background-color: yellowgreen;
+ 
+}
+.under_box2 {
+  width: 70vw;
+  height: 45vh;
+  display: flex;
+  flex-direction: row;
+  background-color: #f3eeea;
+  gap: 1.5vw;
+}
+.box32{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  flex-direction: column;
+  background-color: violet;
+}
+
+.box33{
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  flex-direction: column;
+  /* gap: 3vh; */
+  height: 40%;
+  background-color: teal;
+}
+
 
 
