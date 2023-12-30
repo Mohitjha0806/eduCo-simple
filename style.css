@@ -234,7 +234,7 @@ a {
   width: 33.33vw;
   height: 100%;
   background-color: #d80032;
-  background-image: url(https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg?w=740&t=st=1703429455~exp=1703430055~hmac=d19dc6e08ad287206c3824b3ea1d8eba8bd4a1ede6d8e740d18c76a177a130d8);
+  background-image: url(https://img.freepik.com/free-vector/isolated-young-handsome-man-set-different-poses-white-background-illustration_632498-649.jpg?w=740&t=st=1703965036~exp=1703965636~hmac=2bf73cc90c18da3d920f23537d305cb8effa33602f0015feaa8e8ee18234e052);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -263,12 +263,11 @@ a {
   justify-content: center;
   width: 100vw;
   flex-direction: column;
-  background-color: yellowgreen;
  
 }
 .under_box2 {
   width: 70vw;
-  height: 45vh;
+  height: 42vh;
   display: flex;
   flex-direction: row;
   background-color: #f3eeea;
@@ -279,19 +278,33 @@ a {
   align-items: center;
   justify-content: center;
   width: 100vw;
+  height: 10%;
   flex-direction: column;
-  background-color: violet;
+  margin-top: 3vh;
 }
 
 .box33{
-   display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   width: 100vw;
-  flex-direction: column;
+  flex-direction: row;
   /* gap: 3vh; */
   height: 40%;
-  background-color: teal;
+}
+.box33_left{
+  width: 50vw;
+  height: 100%;
+  background-color: yellow;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  
+}
+.box33_right{
+  width: 50vw;
+  height: 100%;
+  background-color: yellowgreen;
 }
 
 
