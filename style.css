@@ -21,9 +21,11 @@ body {
   background-color: #f3eeea;
   position: relative;
 }
+
 span {
   color: rgb(192, 8, 8);
 }
+
 nav {
   width: 100vw;
   height: 10vh;
@@ -32,6 +34,7 @@ nav {
   justify-content: center;
   flex-direction: row;
 }
+
 .nav-left {
   width: 100vw;
   height: 10vh;
@@ -40,12 +43,14 @@ nav {
   align-items: center;
   justify-content: start;
 }
+
 .nav-left h2 {
   margin-left: 8vw;
   font-size: 2.2rem;
   font-weight: 200;
   font-family: "Poppins", sans-serif;
 }
+
 .nav-right {
   width: 100vw;
   height: 10vh;
@@ -58,6 +63,7 @@ nav {
   margin-right: 7rem;
   margin-top: 2vh;
 }
+
 .nav-right ul {
   display: flex;
   flex-direction: row;
@@ -66,9 +72,11 @@ nav {
   margin-left: 7rem;
   font-family: "Poppins", sans-serif;
 }
+
 ul li {
   margin-right: 4rem;
 }
+
 .content {
   width: 100cw;
   height: 90vh;
@@ -77,6 +85,7 @@ ul li {
   /* background-image: url(https://images.unsplash.com/photo-1531685250784-7569952593d2?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
   display: flex;
 }
+
 .content-left {
   width: 50vw;
   height: 90vh;
@@ -86,11 +95,13 @@ ul li {
   position: relative;
   /* background-color: rgba(153, 205, 50, 0.46); */
 }
+
 .content-right {
   width: 50vw;
   position: relative;
   height: 90vh;
 }
+
 .content-right img {
   margin-top: 10vh;
   margin-left: 10vw;
@@ -99,6 +110,7 @@ ul li {
   position: relative;
   filter: drop-shadow(2px black 5px 5px 5px 5px);
 }
+
 .context {
   width: 42vw;
   height: 55vh;
@@ -117,6 +129,7 @@ ul li {
   font-weight: 700;
   font-family: "Poppins", sans-serif;
 }
+
 .context h4 {
   font-size: 1rem;
   font-weight: 600;
@@ -145,6 +158,7 @@ ul li {
   background-color: #f3eeea;
   /* background-color: violet; */
 }
+
 .box21 {
   display: flex;
   align-items: center;
@@ -159,6 +173,7 @@ ul li {
 .form-control {
   width: 20vw;
 }
+
 a {
   text-decoration: none;
   color: black;
@@ -170,9 +185,9 @@ a {
   justify-content: center;
   width: 100vw;
   height: 35%;
-  /* background-color: violet; */
   flex-direction: column;
 }
+
 .box23 {
   display: flex;
   align-items: center;
@@ -181,12 +196,11 @@ a {
   flex-direction: column;
   gap: 3vh;
   height: 40%;
-  /* background-color: teal; */
 }
 
 .under_box {
-  width: 70vw;
-  height: 45vh;
+  width: 65vw;
+  height: 35vh;
   display: flex;
   flex-direction: row;
   background-color: #f3eeea;
@@ -202,6 +216,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .png_2 {
   width: 33.33vw;
   height: 100%;
@@ -211,6 +226,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .png_3 {
   width: 33.33vw;
   height: 100%;
@@ -220,7 +236,8 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.box3{
+
+.box3 {
   display: flex;
   align-items: center;
   justify-content: start;
@@ -239,6 +256,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .png_5 {
   width: 33.33vw;
   height: 100%;
@@ -248,6 +266,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .png_6 {
   width: 33.33vw;
   height: 100%;
@@ -257,23 +276,26 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.box31{
+
+.box31 {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100vw;
   flex-direction: column;
- 
+
 }
+
 .under_box2 {
-  width: 70vw;
-  height: 42vh;
+  width: 65vw;
+  height: 35vh;
   display: flex;
   flex-direction: row;
   background-color: #f3eeea;
   gap: 1.5vw;
 }
-.box32{
+
+.box32 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -283,7 +305,7 @@ a {
   margin-top: 3vh;
 }
 
-.box33{
+.box33 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -292,20 +314,45 @@ a {
   /* gap: 3vh; */
   height: 40%;
 }
-.box33_left{
+
+.box33_left {
   width: 50vw;
   height: 100%;
-  background-color: yellow;
   display: flex;
   align-items: start;
   justify-content: start;
-  
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10vh 0vw 5vh 12vw;
+  font-weight: 600;
 }
-.box33_right{
+
+.box33_right {
   width: 50vw;
   height: 100%;
-  background-color: yellowgreen;
+  background-image: url(./assets/box\ 3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 
+.box4{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  width: 100vw;
+  height: 100%;
+  background-color: #f3eeea;
+}
 
+.box42 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 10%;
+  flex-direction: column;
+  margin-top: 3vh;
+}
